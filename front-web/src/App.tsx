@@ -3,6 +3,7 @@ import Filter from './components/filter';
 import Header from './components/header';
 import PieChartCard from './components/pie-chart-card';
 import SalesByDateComponent from './components/sales-by-date';
+import SalesList from './components/sales-list';
 import SalesSummaryComponent from './components/sales-summary';
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
             series={[50, 30, 20]}
           />
         </div>
+        <SalesList />
       </div>
     </>
   );

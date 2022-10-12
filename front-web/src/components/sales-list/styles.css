@@ -1,0 +1,42 @@
+.sales-list-container {
+  margin-bottom: 50px;
+  padding: 30px 35px;
+}
+
+.sales-list-title {
+  font-size: 18px;
+}
+
+.sales-list-table {
+  width: 100%;
+  margin-top: 30px;
+  border-spacing: 0;
+}
+
+.sales-list-table thead th {
+  text-align: left;
+  font-size: 16px;
+}
+
+.sales-list-table thead th,
+.sales-list-table tbody td {
+  height: 55px;
+  border-top: 1px solid var(--gray-light-125-color);
+}
+
+.sales-list-table tbody td {
+  font-size: 18px;
+  transition: background 0.3s;
+}
+
+.sales-list-table tbody tr:hover > td {
+  background-color: var(--gray-light-150-color);
+}
+
+.sales-list-table tbody tr:nth-child(even) {
+  background-color: var(--primary-color);
+}
+
+.sales-list-table tbody tr:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.1);
+}
