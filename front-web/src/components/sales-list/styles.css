@@ -18,6 +18,11 @@
   font-size: 16px;
 }
 
+.sales-list-table thead th:first-of-type,
+.sales-list-table tbody td:first-of-type {
+  padding-left: 30px;
+}
+
 .sales-list-table thead th,
 .sales-list-table tbody td {
   height: 55px;
